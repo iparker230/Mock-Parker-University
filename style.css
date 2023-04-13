@@ -63,6 +63,11 @@ nav img{
 .text-box h1{
     font-size: 62px;
 }
+
+.multiText{
+    font-weight: 800;
+    color: #f44339;
+}
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
@@ -461,35 +466,27 @@ h3{
     box-sizing: border-box;
 }
 
-.comment-box{
+.comm-form input, .comm-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+
+}
+
+.comm-box{
     border: 1px solid #ccc;
     margin: 50px 0;
     padding: 10px 20px;
 }
-.comment-box h3{
+.comm-box h3{
     text-align: left;
 }
-.comment-form input{
-    width: 100%;
-    padding: 10px;
-    margin: 15px 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    background: #f0f0f0;
 
-}
-.comment-form textarea{
-    width: 100%;
-    padding: 10px;
-    margin: 15px 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    background: #f0f0f0;
-}
-
-.comment-form button{
+.comm-form button{
     margin: 10px 0;
 }
 
@@ -542,7 +539,7 @@ h3{
     font-size: 20px;
     margin-bottom: 5px;
     color: #555;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .contact-col input, .contact-col textarea{

@@ -26,11 +26,24 @@
                 <div id="exit"><i class="fa fa-solid fa-bars" onclick="showMenu()"></i></div>
 
             </nav>
-        <div class="text-box">
-            <h1>Chicago's Very Own</h1>
+        <div class="text-box" class="wrapper">
+            <h1><span>Welcome To <span class="multiText">Parker</span></span></h1>
             <p>Become a part of the first Historically Black University in Chicago.<br>At Parker we take pride in the success of our students and faculty! </p>
             <a href="" class="hero-btn">Visit Us To Know More</a>
         </div>
+
+        <!--JS for multitext typing animation-->
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings : ["Parker", "Family", "Success"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                startDelay : 1000, 
+                backDelay : 1500
+            })
+        </script>
 
         </section>
 
@@ -191,19 +204,6 @@
 
             </div>  
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <!---JScricpt for menu toggle--->
         <script>
